@@ -1,0 +1,60 @@
+/* dogCatalog.css */
+
+.dog-catalog_body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Se till att sidan tar upp hela höjden */
+}
+
+
+.dog-catalog__container {
+    text-align: center;
+    width: auto;
+    height: 100%;
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 270px; /* Justera detta värde om nödvändigt */
+}
+
+.dog-catalog__title {
+    color: #D9863D;
+    font-size: 48px;
+    text-align: center;
+}
+
+.dog-catalog__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 kolumner */
+    gap: 20px;
+}
+
+.dog-catalog__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.dog-catalog__image {
+    width: auto;
+    max-height: 150px;
+    object-fit: contain;
+    border: none;
+}
+
+.dog-catalog__link:hover {
+    text-decoration: underline;
+}
+
+.error-message {
+    color: red;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}

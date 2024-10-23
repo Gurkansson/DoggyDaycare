@@ -1,0 +1,110 @@
+/* dogDetail.css */
+
+.dog-detail__body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Se till att sidan tar upp hela höjden */
+}
+
+.dog-detail__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #Ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding-top: 300px; /* Justera detta värde om nödvändigt */
+    padding-bottom: 50px;
+}
+
+.dog-detail__content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* Se till att bilden och informationen visas bredvid varandra */
+    width: 100%;
+    justify-content: flex-start;
+}
+
+
+
+.dog-detail__image {
+    max-width: 500px;
+    max-height: 500px;
+    margin-right: 20px;
+    border: 5px solid #075324;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    object-fit: fill;
+    background-color: rgb(243, 243, 243);
+}
+
+.dog-detail__info-wrapper {
+    flex-grow: 1;
+}
+
+.dog-detail__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: -30px;
+}
+
+.dog-detail__name {
+    font-size: 50px;
+    margin-right: 10px;
+    color: #FF9800;
+}
+
+.dog-detail__status {
+    font-weight: normal;
+    font-size: 1em;
+}
+
+.dog-detail__columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; /* Säkerställer att båda kolumnerna sträcker sig lika mycket */
+    margin-top: -20px;
+    gap: 20px;
+    width: auto;
+}
+
+.dog-detail__column {
+    flex: 1; /* Gör så att varje kolumn tar upp lika mycket utrymme */
+    min-width: 200px;
+    background-color: #edebeb;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(6, 140, 33, 0.1);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.present {
+    color: green; 
+    font-weight: bold;
+}
+
+.not-present {
+    color: red; 
+    font-weight: bold;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px; /* Justera avståndet */
+    padding: 10px 20px; /* Inre avstånd */
+    color: #ff9800; /* Vit text */
+    text-align: center; /* Centrera text */
+    text-decoration: none; /* Ta bort understrykning */
+    border-radius: 5px; /* Rundade hörn */
+    transition: background-color 0.3s; /* Övergång för bakgrundsfärgsändringar */
+    font-weight: bold;
+}
+
+.back-button:hover {
+    text-decoration: underline; /* Understrykning vid hover */
+}

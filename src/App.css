@@ -1,0 +1,21 @@
+body {
+
+  display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-image: url('https://fancywalls.eu/wp-content/uploads/fancy-walls-traditional-puppy-wallpaper-683x1024.jpg');
+}
+
+.dog-catalog_body{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+
+}
+
+.dog-detail__body {
+  display: flex;
+
+ 
+}
+
