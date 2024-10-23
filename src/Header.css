@@ -1,7 +1,7 @@
 .header {
     display: flex;
     justify-content: center;
-    align-items: center; /* Vertikalt centrerat */
+    align-items: center; 
     flex-direction: column;
     padding: 10px;
     background-image: url('https://www.doodycalls.com/cms/thumbnails/24/1060x560/images/articles/DC_July10_PlayfulDogs_BlogHeader.2306281318556.jpg');
@@ -23,9 +23,9 @@
     text-align: center;
     margin-top: -130px;
     text-shadow: 2px 2px 4px rgb(235, 178, 110);
-    width: 100%; /* Se till att titeln sträcker sig över hela bredden */
+    width: 100%; 
     display: flex;
-    justify-content: center; /* Centrerar texten horisontellt */
+    justify-content: center; 
 }
 
 

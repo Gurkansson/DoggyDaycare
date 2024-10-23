@@ -4,7 +4,7 @@ footer {
     text-align: center;
     padding: 20px;
     width: 100%;
-    position: relative; /* Använd relative om du vill att footern ska vara längst ner */
+    position: relative; 
     left: 0;
     bottom: 0;
     margin-top: 20px;

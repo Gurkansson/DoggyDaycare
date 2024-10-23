@@ -9,7 +9,7 @@ import Footer from './Footer';
 const DogDetails = () => {
     const { id } = useParams();
     const [dog, setDog] = useState(null);
-    const [loading, setLoading] = useState(true); // Ny state för att hantera laddning
+    const [loading, setLoading] = useState(true); 
 
     useEffect(() => {
         const fetchDogDetails = async () => {

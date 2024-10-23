@@ -3,7 +3,7 @@
 .dog-catalog_body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Se till att sidan tar upp hela höjden */
+    min-height: 100vh; 
 }
 
 
@@ -16,7 +16,7 @@
     background-color: #F0F0F0;
     border-radius: 10px;
     padding: 20px;
-    padding-top: 270px; /* Justera detta värde om nödvändigt */
+    padding-top: 270px; 
 }
 
 .dog-catalog__title {
@@ -27,7 +27,7 @@
 
 .dog-catalog__grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 kolumner */
+    grid-template-columns: repeat(4, 1fr); 
     gap: 20px;
 }
 

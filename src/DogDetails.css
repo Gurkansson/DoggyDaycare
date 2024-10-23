@@ -3,7 +3,7 @@
 .dog-detail__body {
     display: flex;
     flex-direction: column;
-    height: 100vh; /* Se till att sidan tar upp hela höjden */
+    height: 100vh; 
 }
 
 .dog-detail__container {
@@ -14,14 +14,14 @@
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    padding-top: 300px; /* Justera detta värde om nödvändigt */
+    padding-top: 300px; 
     padding-bottom: 50px;
 }
 
 .dog-detail__content {
     display: flex;
     flex-direction: row;
-    align-items: flex-start; /* Se till att bilden och informationen visas bredvid varandra */
+    align-items: flex-start; 
     width: 100%;
     justify-content: flex-start;
 }
@@ -65,14 +65,14 @@
 .dog-detail__columns {
     display: flex;
     justify-content: space-between;
-    align-items: stretch; /* Säkerställer att båda kolumnerna sträcker sig lika mycket */
+    align-items: stretch; 
     margin-top: -20px;
     gap: 20px;
     width: auto;
 }
 
 .dog-detail__column {
-    flex: 1; /* Gör så att varje kolumn tar upp lika mycket utrymme */
+    flex: 1; 
     min-width: 200px;
     background-color: #edebeb;
     padding: 5px;
@@ -95,16 +95,16 @@
 
 .back-button {
     display: inline-block;
-    margin-top: 20px; /* Justera avståndet */
-    padding: 10px 20px; /* Inre avstånd */
-    color: #ff9800; /* Vit text */
-    text-align: center; /* Centrera text */
-    text-decoration: none; /* Ta bort understrykning */
-    border-radius: 5px; /* Rundade hörn */
-    transition: background-color 0.3s; /* Övergång för bakgrundsfärgsändringar */
+    margin-top: 20px; 
+    padding: 10px 20px; 
+    color: #ff9800; 
+    text-align: center;
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s;
     font-weight: bold;
 }
 
 .back-button:hover {
-    text-decoration: underline; /* Understrykning vid hover */
+    text-decoration: underline;
 }

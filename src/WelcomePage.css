@@ -6,9 +6,9 @@
     height: auto;
     margin-left: 70px;
     margin-right: 70px;
-    background-color: #ffffff; /* Ljus bakgrund */
-    border-radius: 10px; /* Rundade hörn */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Lätt skugga */
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
 }
 
 .welcome-title {
@@ -32,7 +32,7 @@
 }
 
 .welcome-link:hover {
-    text-decoration: underline; /* Understrykning vid hover */
+    text-decoration: underline; 
 }
 
 .welcome-nav {
@@ -56,14 +56,14 @@
 
 .welcome-image {
     text-align: center;
-    padding-top: 300px; /* Justera detta värde om nödvändigt */
+    padding-top: 300px; 
     padding: 5px;
-    background-color: #d9863d;; /* Ljus bakgrund */
-    border-radius: 10px; /* Rundade hörn */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Lätt skugga */
+    background-color: #d9863d;; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
     margin-top: 5px; 
-    width: 100%; /* Gör bilden responsiv */
-    max-width: 800px; /* Maximal bredd för bilder */
-    height: auto; /* Bevara bildens proportioner */
+    width: 100%; 
+    max-width: 800px; 
+    height: auto; 
    
 }
