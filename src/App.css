@@ -1,10 +1,31 @@
-body {
 
-  display: flex;
-    justify-content: center;
-    align-items: center; 
-    background-image: url('https://fancywalls.eu/wp-content/uploads/fancy-walls-traditional-puppy-wallpaper-683x1024.jpg');
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-image: url('https://fancywalls.eu/wp-content/uploads/fancy-walls-traditional-puppy-wallpaper-683x1024.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
+.page-content {
+  flex: 1;
+  padding-top: 260px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.page-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 12px;
+}
+
 
 .dog-catalog_body{
   display: flex;

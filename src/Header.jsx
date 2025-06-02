@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => (
-    <Link to="/start"> 
+    <Link to="/"> 
     <header className="header">
             <img 
                 src="https://cdn.prod.website-files.com/616ca8cb37a2ff9ce0323209/63a219f1be4b3d80ae2ba86e_SquareIcon.png" 

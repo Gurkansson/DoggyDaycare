@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
+
 import axios from 'axios';
 import './DogDetails.css';
 import Header from './Header';
@@ -40,8 +40,7 @@ const DogDetails = () => {
                         <div className="dog-detail__header">
                             <h1 className="dog-detail__name">{dog.name}</h1>
                             <span className={`dog-detail__status ${dog.present ? 'present' : 'not-present'}`}>
-                                {dog.present ? 'Present' : 'Not Present'}
-                            </span>
+                        </span>
                         </div>
                         <div className="dog-detail__columns">
                             <div className="dog-detail__column">

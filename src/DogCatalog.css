@@ -8,15 +8,13 @@
 
 
 .dog-catalog__container {
-    text-align: center;
-    width: auto;
-    height: 100%;
-    margin-left: 70px;
-    margin-right: 70px;
-    background-color: #F0F0F0;
-    border-radius: 10px;
-    padding: 20px;
-    padding-top: 270px; 
+  margin: 0 auto; /* centrerar horisontellt */
+  background-color: #F0F0F0;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 270px;
+  max-width: 1200px; /* kontrollera bredd */
+  width: 100%;
 }
 
 .dog-catalog__title {
@@ -42,11 +40,14 @@
 }
 
 .dog-catalog__image {
-    width: auto;
-    max-height: 150px;
+    width: 100%;
+    max-width: 150px;
+    height: auto;
     object-fit: contain;
-    border: none;
+    display: block;
+  margin: auto;
 }
+
 
 .dog-catalog__link:hover {
     text-decoration: underline;
