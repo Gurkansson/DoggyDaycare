@@ -29,7 +29,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  display: block; /* <-- Viktig ändring */
+  display: block; 
   background-image: url('https://fancywalls.eu/wp-content/uploads/fancy-walls-traditional-puppy-wallpaper-683x1024.jpg');
 }
 
